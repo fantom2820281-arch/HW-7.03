@@ -28,7 +28,7 @@
 
 ---
 
-![diagrammatest]('Диаграмма без названия.drawio.png')
+![diagrammatest](img/hw703diagramm.drawio.png)
 
 ---
 
