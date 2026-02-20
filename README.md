@@ -110,13 +110,13 @@
 
 выполняем плейбук
 
-![screen4](hw-terra-7.03-screen4.png)
+![screen4](img/hw-terra-7.03-screen4.png)
 
 
 проверяем подключение 
 проверяем службу
 
-![screen5](hw-terr-7.03screen5.png)
+![screen5](img/hw-terr-7.03screen5.png)
 
 ---
 ---
