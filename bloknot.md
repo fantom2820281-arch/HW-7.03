@@ -1,13 +1,13 @@
-# 2. Инициализируй локальный репозиторий
+ Инициализируй локальный репозиторий
 git init
 
-# 3. Добавь все файлы
+ Добавь все файлы
 git add .
 
-# 4. Сделай первый коммит
+ Сделай первый коммит
 git commit -m "feat: initial commit - Terraform Docker Lab"
 
-# 5. Создай репозиторий на GitHub через CLI
+ Создай репозиторий на GitHub через CLI
 gh repo create terraform-docker-lab \
   --public \
   --description "Terraform Docker Lab - Nginx + WordPress" \
@@ -15,5 +15,16 @@ gh repo create terraform-docker-lab \
   --remote=upstream \
   --push
 
-# 6. Проверь, что всё загрузилось
+Проверь, что всё загрузилось
 gh repo view --web
+
+rm ~/.ssh/known_hosts перед запуском очищаем сохраненные хосты
+
+изменили пользователя что бы получить доступ к бастиону 
+
+пробуем зайти на внутренние машины ssh -J dima@внешний ip ssh@10.10 внутренний ip
+
+прописал как подключатся ансиблу он подключается как dima
+
+
+
